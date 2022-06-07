@@ -134,7 +134,9 @@ li {
 }
 
 .perfil img {
-    border-radius: 50%;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    -ms-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
 .perfil img:hover {
