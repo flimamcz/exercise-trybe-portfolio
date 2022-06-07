@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Filipe Lima</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <header class="header container">
@@ -17,40 +20,44 @@
             <div class="logo">
                 <h1>Fi<span class="detail-logo">li</span>pe<span class="logo-span">.</span></h1>
             </div>
-    
+
             <nav class="navbar">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Skills</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#blog">Blog</a></li>
                 </ul>
             </nav>
         </div>
 
         <div class="redes-sociais">
             <ul>
-                <li><a href=""><img src="images/instagram.svg" alt="icone do instagram"></a></li>
-                <li><a href=""><img src="images/linkedin.svg" alt="icone do linkedin"></a></li>
+                <li><a href="https://instagram.com/_flima01" target="_blank"><img src="images/instagram.svg"
+                            alt="icone do instagram"></a></li>
+                <li><a href="https://www.linkedin.com/in/flima01/" target="_blank"><img src="images/linkedin.svg"
+                            alt="icone do linkedin"></a></li>
             </ul>
         </div>
     </header>
-    
 
-    <section class="about container">
+
+    <section id="home" class="about container">
         <div>
             <h1>Fala Dev! <br> Me chamo <span class="color-green">Filipe Lima.</span></h1>
             <p>Atualmente Estudante da trybe e residente em Maceió/AL.</p>
         </div>
 
         <div class="perfil">
-            <a href="#about"><img src="/images/foto-perfil.png" alt="Foto de perfil do Autor do site, sentado e de oculos."></a>
+            <a href="#about"><img src="/images/foto-perfil.png"
+                    alt="Foto de perfil do Autor do site, sentado e de oculos."></a>
         </div>
     </section>
 
-    <section class="skills container">
+    <section id="skills" class="skills container">
         <h2 class="title">Skills</h2>
 
-        <div class="cards-skills">
+        <div id="blog" class="cards-skills">
             <ul class="hard-skills card-skills">
                 <h3 class="title-skills ">Hard Skills</h3>
                 <li>HTML</li>
@@ -81,13 +88,14 @@
     <section class="blog container">
         <h2 class="title">Conteúdo Diário (Blog)</h2>
         <div class="content-blog">
-            <p>Tá afim de ter noticías atualizadinhas sobre tecnologia logo cedo ? Segue essa dica</p>
+            <p>Tá afim de ter noticías atualizadinhas sobre tecnologia logo cedo ? pega essa dica:</p>
             <a href="https://medium.com/tag/technology" target="_blank">Notícias quentinhas sobre a área tech</a>
         </div>
     </section>
 
-    <footer>
-        <p>Desenvolvido por Filipe - 2022</p>
+    <footer class="footer">
+        <p>Desenvolvido por <a href="https://flpdev.vercel.app/" target="_blank">Filipe</a> - 2022</p>
     </footer>
 </body>
+
 </html>
