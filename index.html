@@ -5,22 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Filipe Lima</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <div>
-            <h1>Filipe</h1>
+    <header class="header container">
+        <div class="logo-and-navbar">
+            <div class="logo">
+                <h1>Fi<span class="detail-logo">li</span>pe<span class="logo-span">.</span></h1>
+            </div>
+    
+            <nav class="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+                </ul>
+            </nav>
         </div>
 
-        <nav>
+        <div class="redes-sociais">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
+                <li><a href=""><img src="images/instagram.svg" alt="icone do instagram"></a></li>
+                <li><a href=""><img src="images/linkedin.svg" alt="icone do linkedin"></a></li>
             </ul>
-        </nav>
+        </div>
     </header>
     
+
+    <section class="about container">
+        <div>
+            <h1>Fala Dev! <br> Me chamo <span class="color-green">Filipe Lima.</span></h1>
+            <p>Atualmente Estudante da trybe e residente em Maceió/AL.</p>
+        </div>
+
+        <div class="perfil">
+            <a href="#about"><img src="/images/foto-perfil.png" alt="Foto de perfil do Autor do site, sentado e de oculos."></a>
+        </div>
+    </section>
+
+    <section class="skills container">
+        <h2 class="title">Skills</h2>
+
+        <div class="cards-skills">
+            <ul class="hard-skills card-skills">
+                <h3 class="title-skills ">Hard Skills</h3>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SASS</li>
+                <li>JavaScript</li>
+                <li><strong>ReactJs</strong></li>
+                <li>Hooks</li>
+                <li>API</li>
+                <li>Styled Components</li>
+                <li>TailwindCss</li>
+            </ul>
+
+            <ul class="soft-skills card-skills">
+                <h3 class="title-skills ">Soft Skills</h3>
+                <li>Persistência</li>
+                <li><Strong>Flexibilidade</Strong></li>
+                <li>Resiliência</li>
+                <li>Empatia</li>
+                <li>Criatividade</li>
+                <li>Resolução de problemas</li>
+                <li>Trabalho em equipe</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="blog container">
+        <h2 class="title">Conteúdo Diário (Blog)</h2>
+        <div class="content-blog">
+            <p>Tá afim de ter noticías atualizadinhas sobre tecnologia logo cedo ? Segue essa dica</p>
+            <a href="https://medium.com/tag/technology" target="_blank">Notícias quentinhas sobre a área tech</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Filipe - 2022</p>
+    </footer>
 </body>
 </html>
