@@ -59,14 +59,14 @@ li {
     margin-left: 9.6rem;
 }
 
-.logo-and-navbar .navbar ul li a{
+.logo-and-navbar .navbar ul li a {
     text-decoration: none;
     color: #312424;
     font-size: 1.6rem;
     font-weight: 600;
 }
 
-.logo-and-navbar .navbar ul li a:hover{
+.logo-and-navbar .navbar ul li a:hover {
     color: #166806;
     display: block;
     transform: scale(1.1);
@@ -134,6 +134,8 @@ li {
 }
 
 .perfil img {
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    -ms-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
@@ -235,6 +237,6 @@ li {
     font-weight: 600;
 }
 
-.footer a{
+.footer a {
     color: #1c9b02;
 }
