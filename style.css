@@ -77,10 +77,16 @@ li {
     color: #166806;
 }
 
-.header .logo h1 {
+
+.header .logo a {
+    text-decoration: none;
+}
+
+.header .logo a h1 {
     font-size: 3.6rem;
     font-weight: 600;
     font-style: italic;
+    color: #312424;
 }
 
 .logo-span {
